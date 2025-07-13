@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cangjie (CJNative): Terrenos.exe",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\clases\\geografia\\Terrenos.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "env": {},
+            "preLaunchTask": "cangjieDebug build task - FBrmkkAPUy"
+        }
+    ]
+}

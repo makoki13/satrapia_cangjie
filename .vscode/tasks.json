@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cangjieDebugBuild",
+			"cmd": "/cangjie/cangjie-sdk-windows-x64-1.0.0/cangjie/\\bin\\cjc.exe",
+			"args": [
+				"-g",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\clases\\geografia\\Terrenos.cj",
+				"-o",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\clases\\geografia\\Terrenos.exe"
+			],
+			"label": "cangjieDebug build task - FBrmkkAPUy"
+		}
+	]
+}
