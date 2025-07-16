@@ -14,9 +14,12 @@ public class Coord {
         this.y = y
         this.z = z
     }
-}
 
-/* main() {
-    let p: Coord = Coord(10,20)
-    print("x: ${p.x} , y: ${p.y} , z: ${p.z}")
-} */
+    func esIgual(other: Coord): Bool {
+        return this.x == other.x && this.y == other.y && this.z == other.z
+    }
+
+    func toString(): String {
+        return "(${x}, ${y})"
+    }
+}
