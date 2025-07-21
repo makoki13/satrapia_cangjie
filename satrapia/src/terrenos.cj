@@ -1,3 +1,5 @@
+package satrapia
+
 open public class TipoTerrenos {
     TipoTerrenos(let nombre: String, let costeDesplazamiento: IntNative, let esAgua: Bool) {}
 }

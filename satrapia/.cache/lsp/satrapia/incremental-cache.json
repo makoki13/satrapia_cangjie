@@ -1,0 +1,22 @@
+{
+  "packageInformation": {
+    "satrapia.test": {
+      "rootPackageName": "satrapia",
+      "fileNameHash": "8567238205303913171",
+      "timeStamp": 1753008847,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "satrapia": {
+      "rootPackageName": "satrapia",
+      "fileNameHash": "-3648095236595427376",
+      "timeStamp": 1753008893,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": true
+    }
+  },
+  "jsonHash": "2922850303058256660",
+  "rootPackageName": "satrapia"
+}

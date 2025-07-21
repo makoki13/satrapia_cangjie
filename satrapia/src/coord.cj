@@ -1,3 +1,5 @@
+package satrapia
+
 public class Coord {
     let x: IntNative
     let y: IntNative

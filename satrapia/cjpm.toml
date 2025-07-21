@@ -1,7 +1,7 @@
 [package]
   cjc-version = "1.0.0"
   name = "satrapia"
-  description = "nothing here"
+  description = "a satrapia implementation in Cangjie"
   version = "1.0.0"
   target-dir = ""
   src-dir = ""

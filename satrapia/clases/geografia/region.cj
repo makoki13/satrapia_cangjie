@@ -1,4 +1,7 @@
+package satrapia.clases.geografia
+
 import std.collection.*
+
 
 class Region {
     // Lista de vértices que definen el polígono

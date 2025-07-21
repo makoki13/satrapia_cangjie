@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cangjieDebugBuild",
+			"cmd": "/cangjie/cangjie-sdk-windows-x64-1.0.0/cangjie/\\bin\\cjc.exe",
+			"args": [
+				"-g",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\region.cj",
+				"-o",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\region.exe"
+			],
+			"label": "cangjieDebug build task - SeguE4wWoA"
+		},
+		{
+			"type": "cangjieDebugBuild",
+			"cmd": "/cangjie/cangjie-sdk-windows-x64-1.0.0/cangjie/\\bin\\cjc.exe",
+			"args": [
+				"-g",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\main.cj",
+				"-o",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\main.exe"
+			],
+			"label": "cangjieDebug build task - 6eeSInWr5J"
+		},
+		{
+			"type": "cangjieDebugBuild",
+			"cmd": "/cangjie/cangjie-sdk-windows-x64-1.0.0/cangjie/\\bin\\cjc.exe",
+			"args": [
+				"-g",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\coord.cj",
+				"-o",
+				"c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\coord.exe"
+			],
+			"label": "cangjieDebug build task - vMXjztX75R"
+		}
+	]
+}

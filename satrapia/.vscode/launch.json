@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cangjie (CJNative): launch",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\target\\debug\\bin\\main.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "buildBeforeLaunch": true,
+            "env": {},
+            "debugMacro": false
+        },
+        {
+            "name": "Cangjie (CJNative): region.exe",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\region.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "env": {},
+            "preLaunchTask": "cangjieDebug build task - SeguE4wWoA"
+        },
+        {
+            "name": "Cangjie (CJNative): main.exe",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\main.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "env": {},
+            "preLaunchTask": "cangjieDebug build task - 6eeSInWr5J"
+        },
+        {
+            "name": "Cangjie (CJNative): coord.exe",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia\\coord.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "env": {},
+            "preLaunchTask": "cangjieDebug build task - vMXjztX75R"
+        }
+    ]
+}
