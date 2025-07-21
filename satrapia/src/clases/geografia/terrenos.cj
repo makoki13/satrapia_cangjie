@@ -1,7 +1,7 @@
-package satrapia
+package satrapia.clases.geografia
 
 open public class TipoTerrenos {
-    TipoTerrenos(let nombre: String, let costeDesplazamiento: IntNative, let esAgua: Bool) {}
+    TipoTerrenos(public let nombre: String, public let costeDesplazamiento: IntNative, public let esAgua: Bool) {}
 }
 
  public class Llano <: TipoTerrenos {
@@ -29,7 +29,7 @@ public class Rio <: TipoTerrenos {
 }
 
 public class Mar <: TipoTerrenos {
-    init() {
+    public init() {
         super("MAR", 5, true)
     }
 }

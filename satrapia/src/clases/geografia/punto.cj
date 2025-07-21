@@ -1,4 +1,7 @@
-package satrapia
+package satrapia.clases.geografia
+
+//import satrapia.clases.geografia.Coord
+//import satrapia.clases.geografia.TipoTerrenos
 
 class Punto {
     Punto(let coordenadas: Coord, let terreno: TipoTerrenos) {}

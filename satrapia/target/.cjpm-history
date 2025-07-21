@@ -3,8 +3,8 @@
     {
       "rootPackageName": "satrapia",
       "modulePath": ".",
-      "packagePath": "C:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\test",
-      "fullName": "satrapia.test",
+      "packagePath": "C:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases",
+      "fullName": "satrapia.clases",
       "isMacroPackage": false,
       "output-type": "static",
       "compile-option": "",
@@ -13,6 +13,50 @@
       "link-option": "",
       "native-link-option": "",
       "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "satrapia",
+      "modulePath": ".",
+      "packagePath": "C:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\geografia",
+      "fullName": "satrapia.clases.geografia",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "satrapia",
+      "modulePath": ".",
+      "packagePath": "C:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\src\\clases\\edificios",
+      "fullName": "satrapia.clases.edificios",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "satrapia.clases.geografia"
+      ],
       "std-requires": [],
       "c_libs": {},
       "hasTestFiles": false,
@@ -33,9 +77,12 @@
       "link-option": "",
       "native-link-option": "",
       "requires": [
-        "satrapia.test"
+        "satrapia.clases.edificios",
+        "satrapia.clases.geografia"
       ],
-      "std-requires": [],
+      "std-requires": [
+        "std.collection"
+      ],
       "c_libs": {},
       "hasTestFiles": false,
       "hasProdFiles": true,

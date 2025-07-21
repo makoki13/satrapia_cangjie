@@ -37,6 +37,15 @@
             "externalConsole": false,
             "env": {},
             "preLaunchTask": "cangjieDebug build task - vMXjztX75R"
+        },
+        {
+            "name": "Cangjie (CJNative): region.exe",
+            "program": "c:\\cangjie\\Proyectos\\satrapia_cangjie\\satrapia\\clases\\geografia\\region.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "env": {},
+            "preLaunchTask": "cangjieDebug build task - ZknP4wfeXC"
         }
     ]
 }
