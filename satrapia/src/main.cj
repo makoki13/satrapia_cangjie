@@ -1,8 +1,10 @@
 package satrapia
 
-import satrapia.clases.geografia.Coord
+import satrapia.clases.geografia.Coordenadas
 import satrapia.clases.geografia.Mar
 import satrapia.clases.geografia.Region
+import satrapia.clases.geografia.Posicion
+import satrapia.clases.geografia.Mapa
 
 import satrapia.clases.edificios.Edificio
 
@@ -37,9 +39,19 @@ main(): Int64 {
     probarPunto(Coord(0, 0), region)  // En borde
     probarPunto(Coord(2, 1), region)  // En borde */
 
-    let palacio: Edificio = Edificio(Coord(5,5))
-    println(palacio.getPosicion().toString())
+    /* let palacio: Edificio = Edificio(Coordenadas(5,5))
+    println(palacio.getPosicion().toString()) */
 
+    /* let posicion: Posicion = Posicion()
+    println(posicion.coordenadas.toString())
+    posicion.setX(10); posicion.setY(20)
+    println(posicion.coordenadas.toString()) */
+
+    let miMapa: Mapa = Mapa()
+    miMapa.setTamanyo(100)
+    miMapa.setTamanyoFilas(10)
+    println("Num filas: ${miMapa.getNumFilas()}")
+    
     return 0
 }
 

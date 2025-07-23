@@ -1,15 +1,15 @@
 package satrapia.clases.edificios
 
-import satrapia.clases.geografia.Coord
+import satrapia.clases.geografia.Coordenadas
 
 public class Edificio {
-    let punto: Coord
+    let punto: Coordenadas
 
-    public init (p: Coord) {
+    public init (p: Coordenadas) {
         this.punto = p
     }
 
-    public func getPosicion() : Coord {
+    public func getPosicion() : Coordenadas {
         return this.punto
     }
 }

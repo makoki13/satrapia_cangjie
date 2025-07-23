@@ -1,15 +1,15 @@
 package satrapia.clases.geografia
 
-public class Coord {
-    let x: IntNative
-    let y: IntNative
+public class Coordenadas {
+    var x: IntNative
+    var y: IntNative
 
     public init (x: IntNative, y: IntNative) {
         this.x = x
         this.y = y
     }
 
-    public func esIgual(other: Coord): Bool {
+    public func esIgual(other: Coordenadas): Bool {
         return this.x == other.x && this.y == other.y
     }
 

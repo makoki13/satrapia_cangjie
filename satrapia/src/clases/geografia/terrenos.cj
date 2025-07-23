@@ -4,15 +4,15 @@ open public class TipoTerrenos {
     TipoTerrenos(public let nombre: String, public let costeDesplazamiento: IntNative, public let esAgua: Bool) {}
 }
 
- public class Llano <: TipoTerrenos {
+ public class Llanura <: TipoTerrenos {
     init() {
-        super("LLANO", 0, false)
+        super("LLANURA", 0, false)
     }
 }
 
 public class Colina <: TipoTerrenos {
     init() {
-        super("COLINA", 1, false)
+        super("MONTE", 1, false)
     }
 }
 
@@ -36,12 +36,12 @@ public class Mar <: TipoTerrenos {
 
 public class Desierto <: TipoTerrenos {
     init() {
-        super("Desierto", 2, false)
+        super("DESIERTO", 2, false)
     }
 }
 
-/* main() {
-    let t: Mar = Mar()
-
-    print("Nombre ${t.nombre} Dificultad: ${t.costeDesplazamiento} Es agua ${t.esAgua}")
-} */
+public class PasoDeMontanya <: TipoTerrenos {
+    init() {
+        super("PASO DE MONTAÑA", 2, false)
+    }
+}

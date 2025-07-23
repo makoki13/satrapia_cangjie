@@ -5,20 +5,20 @@ import std.collection.ArrayList
 
 public class Region {
     // Lista de vértices que definen el polígono
-    let vertices: ArrayList<Coord>
+    let vertices: ArrayList<Coordenadas>
 
-    public init(vertices: ArrayList<Coord>) {
+    public init(vertices: ArrayList<Coordenadas>) {
         this.vertices = vertices
     }
 
     // Función pública para saber si un punto está dentro de la región
-    public func contiene(punto: Coord): Bool {
+    public func contiene(punto: Coordenadas): Bool {
         return puntoDentroDelPoligono(punto, vertices)
     }
 
 
 // Función que comprueba si el punto p está sobre el segmento entre a y b
-private static func puntoSobreSegmento(p: Coord, a: Coord, b: Coord): Bool {
+private static func puntoSobreSegmento(p: Coordenadas, a: Coordenadas, b: Coordenadas): Bool {
     // Comprobación de bounding box para descartar rápidamente puntos fuera
     let minX = if (a.x < b.x) {a.x} else {b.x}
     let maxX = if (a.x >= b.x) {a.x} else {b.x}
@@ -36,7 +36,7 @@ private static func puntoSobreSegmento(p: Coord, a: Coord, b: Coord): Bool {
     return area < 1
 }
 
-    private static func puntoDentroDelPoligono(p: Coord, poligono: ArrayList<Coord>): Bool {
+    private static func puntoDentroDelPoligono(p: Coordenadas, poligono: ArrayList<Coordenadas>): Bool {
         var dentro = false
         var i = 0
         var j = poligono.size - 1
@@ -84,30 +84,3 @@ private static func puntoSobreSegmento(p: Coord, a: Coord, b: Coord): Bool {
         return s
     }
 }
-
-/* main() {
-    let puntos = ArrayList<Coord>()
-    puntos.add(Coord(0, 0))
-    puntos.add(Coord(0, 2))
-    puntos.add(Coord(2, 2))
-    puntos.add(Coord(2, 0))
-
-    let region = Region(puntos)
-
-    print(region.toString())
-
-    // Probamos algunos puntos
-    probarPunto(Coord(1, 1), region)  // Dentro
-    probarPunto(Coord(3, 3), region)  // Fuera
-    probarPunto(Coord(0, 0), region)  // En borde
-    probarPunto(Coord(2, 1), region)  // En borde
-}
-
-func probarPunto(punto: Coord, region: Region) {
-    if (region.contiene(punto)) {
-        print("El punto ${punto.toString()} esta dentro de la region.")    
-    }
-    else {
-        print("El punto ${punto.toString()} esta fuera de la region.")    
-    }
-} */

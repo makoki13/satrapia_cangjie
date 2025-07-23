@@ -1,5 +1,29 @@
 {
   "packageInformation": {
+    "satrapia.clases.geografia": {
+      "rootPackageName": "satrapia",
+      "fileNameHash": "-2878817163985159682",
+      "timeStamp": 1753283288,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "satrapia.clases.edificios": {
+      "rootPackageName": "satrapia",
+      "fileNameHash": "-2227631922822541680",
+      "timeStamp": 1753280872,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "satrapia": {
+      "rootPackageName": "satrapia",
+      "fileNameHash": "-5369307462318523129",
+      "timeStamp": 1753283305,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": true
+    },
     "satrapia.clases": {
       "rootPackageName": "satrapia",
       "fileNameHash": "-8656634394486528563",
@@ -7,30 +31,6 @@
       "isBuilt": true,
       "exeName": "",
       "hasSubPkgs": true
-    },
-    "satrapia": {
-      "rootPackageName": "satrapia",
-      "fileNameHash": "-5369307462318523129",
-      "timeStamp": 1753114036,
-      "isBuilt": true,
-      "exeName": "main",
-      "hasSubPkgs": true
-    },
-    "satrapia.clases.edificios": {
-      "rootPackageName": "satrapia",
-      "fileNameHash": "-2227631922822541680",
-      "timeStamp": 1753113849,
-      "isBuilt": true,
-      "exeName": "",
-      "hasSubPkgs": false
-    },
-    "satrapia.clases.geografia": {
-      "rootPackageName": "satrapia",
-      "fileNameHash": "-5285192213612546193",
-      "timeStamp": 1753114348,
-      "isBuilt": true,
-      "exeName": "",
-      "hasSubPkgs": false
     }
   },
   "jsonHash": "2922850303058256660",
